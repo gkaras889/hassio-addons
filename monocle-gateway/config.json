@@ -1,0 +1,20 @@
+{
+    "name": "Monocle Gateway",
+    "version": "0.1.0",
+    "slug": "monocle-gateway",
+    "description": "Monocle Gateway Add-On for Home Assistant",
+    "url": "https://github.com/gkaras889/hassio-addons/monocle-gateway",
+    "startup": "services",
+    "hassio_api": true,
+    "arch": [
+      "armv7"
+    ],
+    "boot": "auto",
+    "options": {
+      "monocle_token": "your_token"
+    },
+    "schema": {
+      "monocle_token": "str"
+    },
+    "host_network": "true"
+  }
